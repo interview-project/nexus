@@ -1,0 +1,10 @@
+DEPENDENCIES
+  docker (~> 4.4.1)
+  nexus
+    path: .
+    metadata: true
+
+GRAPH
+  docker (4.4.1)
+  nexus (1.0.0)
+    docker (>= 0.0.0)

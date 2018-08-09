@@ -1,0 +1,302 @@
+I, [2018-08-09T18:45:55.945144 #3958]  INFO -- nexus-ubuntu-xenial64: -----> Creating <nexus-ubuntu-xenial64>...
+I, [2018-08-09T18:45:56.536325 #3958]  INFO -- nexus-ubuntu-xenial64: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2018-08-09T18:45:56.630867 #3958]  INFO -- nexus-ubuntu-xenial64: ==> default: Importing base box 'ubuntu/xenial64'...
+I, [2018-08-09T18:46:00.328757 #3958]  INFO -- nexus-ubuntu-xenial64: [KProgress: 10%[KProgress: 20%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2018-08-09T18:46:00.454384 #3958]  INFO -- nexus-ubuntu-xenial64: ==> default: Checking if box 'ubuntu/xenial64' is up to date...
+I, [2018-08-09T18:46:03.094441 #3958]  INFO -- nexus-ubuntu-xenial64: ==> default: Setting the name of the VM: nexus-ubuntu-xenial64_default_1533854763051_29264
+I, [2018-08-09T18:46:03.447382 #3958]  INFO -- nexus-ubuntu-xenial64: ==> default: Clearing any previously set network interfaces...
+I, [2018-08-09T18:46:03.494043 #3958]  INFO -- nexus-ubuntu-xenial64: ==> default: Preparing network interfaces based on configuration...
+I, [2018-08-09T18:46:03.494439 #3958]  INFO -- nexus-ubuntu-xenial64:     default: Adapter 1: nat
+I, [2018-08-09T18:46:03.540233 #3958]  INFO -- nexus-ubuntu-xenial64: ==> default: Forwarding ports...
+I, [2018-08-09T18:46:03.617409 #3958]  INFO -- nexus-ubuntu-xenial64:     default: 8081 (guest) => 8081 (host) (adapter 1)
+I, [2018-08-09T18:46:03.617865 #3958]  INFO -- nexus-ubuntu-xenial64:     default: 22 (guest) => 2222 (host) (adapter 1)
+I, [2018-08-09T18:46:03.758455 #3958]  INFO -- nexus-ubuntu-xenial64: ==> default: Running 'pre-boot' VM customizations...
+I, [2018-08-09T18:46:03.952836 #3958]  INFO -- nexus-ubuntu-xenial64: ==> default: Booting VM...
+I, [2018-08-09T18:46:04.164677 #3958]  INFO -- nexus-ubuntu-xenial64: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2018-08-09T18:46:04.399471 #3958]  INFO -- nexus-ubuntu-xenial64:     default: SSH address: 127.0.0.1:2222
+I, [2018-08-09T18:46:04.399668 #3958]  INFO -- nexus-ubuntu-xenial64:     default: SSH username: vagrant
+I, [2018-08-09T18:46:04.400017 #3958]  INFO -- nexus-ubuntu-xenial64:     default: SSH auth method: private key
+I, [2018-08-09T18:46:34.881245 #3958]  INFO -- nexus-ubuntu-xenial64:     default: Warning: Connection reset. Retrying...
+I, [2018-08-09T18:46:35.053834 #3958]  INFO -- nexus-ubuntu-xenial64:     default: Warning: Remote connection disconnect. Retrying...
+I, [2018-08-09T18:46:35.213090 #3958]  INFO -- nexus-ubuntu-xenial64:     default: Warning: Connection reset. Retrying...
+I, [2018-08-09T18:46:35.723752 #3958]  INFO -- nexus-ubuntu-xenial64:     default: Warning: Remote connection disconnect. Retrying...
+I, [2018-08-09T18:46:35.886379 #3958]  INFO -- nexus-ubuntu-xenial64:     default: Warning: Connection reset. Retrying...
+I, [2018-08-09T18:46:36.657212 #3958]  INFO -- nexus-ubuntu-xenial64:     default: 
+I, [2018-08-09T18:46:36.657289 #3958]  INFO -- nexus-ubuntu-xenial64:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2018-08-09T18:46:36.657321 #3958]  INFO -- nexus-ubuntu-xenial64:     default: this with a newly generated keypair for better security.
+I, [2018-08-09T18:46:36.972526 #3958]  INFO -- nexus-ubuntu-xenial64:     default: 
+I, [2018-08-09T18:46:36.972589 #3958]  INFO -- nexus-ubuntu-xenial64:     default: Inserting generated public key within guest...
+I, [2018-08-09T18:46:37.012521 #3958]  INFO -- nexus-ubuntu-xenial64:     default: Removing insecure key from the guest if it's present...
+I, [2018-08-09T18:46:37.048293 #3958]  INFO -- nexus-ubuntu-xenial64:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2018-08-09T18:46:38.259230 #3958]  INFO -- nexus-ubuntu-xenial64: ==> default: Machine booted and ready!
+I, [2018-08-09T18:46:38.259464 #3958]  INFO -- nexus-ubuntu-xenial64: ==> default: Checking for guest additions in VM...
+I, [2018-08-09T18:46:38.301305 #3958]  INFO -- nexus-ubuntu-xenial64:     default: The guest additions on this VM do not match the installed version of
+I, [2018-08-09T18:46:38.301395 #3958]  INFO -- nexus-ubuntu-xenial64:     default: VirtualBox! In most cases this is fine, but in rare cases it can
+I, [2018-08-09T18:46:38.301434 #3958]  INFO -- nexus-ubuntu-xenial64:     default: prevent things such as shared folders from working properly. If you see
+I, [2018-08-09T18:46:38.301468 #3958]  INFO -- nexus-ubuntu-xenial64:     default: shared folder errors, please make sure the guest additions within the
+I, [2018-08-09T18:46:38.301498 #3958]  INFO -- nexus-ubuntu-xenial64:     default: virtual machine match the version of VirtualBox you have installed on
+I, [2018-08-09T18:46:38.301529 #3958]  INFO -- nexus-ubuntu-xenial64:     default: your host and reload your VM.
+I, [2018-08-09T18:46:38.301552 #3958]  INFO -- nexus-ubuntu-xenial64:     default: 
+I, [2018-08-09T18:46:38.301579 #3958]  INFO -- nexus-ubuntu-xenial64:     default: Guest Additions Version: 5.1.38
+I, [2018-08-09T18:46:38.301605 #3958]  INFO -- nexus-ubuntu-xenial64:     default: VirtualBox Version: 5.2
+I, [2018-08-09T18:46:38.302042 #3958]  INFO -- nexus-ubuntu-xenial64: ==> default: Setting hostname...
+I, [2018-08-09T18:46:38.605460 #3958]  INFO -- nexus-ubuntu-xenial64: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2018-08-09T18:46:39.793672 #3958]  INFO -- nexus-ubuntu-xenial64: [SSH] Established
+I, [2018-08-09T18:46:39.794367 #3958]  INFO -- nexus-ubuntu-xenial64: Vagrant instance <nexus-ubuntu-xenial64> created.
+I, [2018-08-09T18:46:39.795233 #3958]  INFO -- nexus-ubuntu-xenial64: Finished creating <nexus-ubuntu-xenial64> (0m43.85s).
+I, [2018-08-09T18:46:39.795433 #3958]  INFO -- nexus-ubuntu-xenial64: -----> Converging <nexus-ubuntu-xenial64>...
+I, [2018-08-09T18:46:39.796037 #3958]  INFO -- nexus-ubuntu-xenial64: Preparing files for transfer
+I, [2018-08-09T18:46:39.796120 #3958]  INFO -- nexus-ubuntu-xenial64: Preparing dna.json
+I, [2018-08-09T18:46:39.796571 #3958]  INFO -- nexus-ubuntu-xenial64: Resolving cookbook dependencies with Berkshelf 7.0.4...
+I, [2018-08-09T18:46:42.386175 #3958]  INFO -- nexus-ubuntu-xenial64: Removing non-cookbook files before transfer
+I, [2018-08-09T18:46:42.389066 #3958]  INFO -- nexus-ubuntu-xenial64: Preparing environments
+I, [2018-08-09T18:46:42.389523 #3958]  INFO -- nexus-ubuntu-xenial64: Preparing validation.pem
+I, [2018-08-09T18:46:42.389765 #3958]  INFO -- nexus-ubuntu-xenial64: Preparing client.rb
+I, [2018-08-09T18:46:42.403181 #3958]  INFO -- nexus-ubuntu-xenial64: -----> Installing Chef Omnibus (install only if missing)
+I, [2018-08-09T18:46:42.403914 #3958]  INFO -- nexus-ubuntu-xenial64: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2018-08-09T18:46:42.404191 #3958]  INFO -- nexus-ubuntu-xenial64: Trying wget...
+I, [2018-08-09T18:46:42.883849 #3958]  INFO -- nexus-ubuntu-xenial64: Download complete.
+I, [2018-08-09T18:46:42.898071 #3958]  INFO -- nexus-ubuntu-xenial64: ubuntu 16.04 x86_64
+I, [2018-08-09T18:46:42.898265 #3958]  INFO -- nexus-ubuntu-xenial64: Getting information for chef stable  for ubuntu...
+I, [2018-08-09T18:46:42.898300 #3958]  INFO -- nexus-ubuntu-xenial64: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=ubuntu&pv=16.04&m=x86_64
+I, [2018-08-09T18:46:42.898327 #3958]  INFO -- nexus-ubuntu-xenial64:   to file /tmp/install.sh.1647/metadata.txt
+I, [2018-08-09T18:46:42.898672 #3958]  INFO -- nexus-ubuntu-xenial64: trying wget...
+I, [2018-08-09T18:46:43.043489 #3958]  INFO -- nexus-ubuntu-xenial64: sha1	845b83d65443c62b11911fc83a70d6cac282f7cd
+I, [2018-08-09T18:46:43.043774 #3958]  INFO -- nexus-ubuntu-xenial64: sha256	f2578ed674189d4c303e5fece3faeb4c4a0117f5d29e5e050982a38fbaaad0e5
+I, [2018-08-09T18:46:43.044057 #3958]  INFO -- nexus-ubuntu-xenial64: url	https://packages.chef.io/files/stable/chef/14.3.37/ubuntu/16.04/chef_14.3.37-1_amd64.deb
+I, [2018-08-09T18:46:43.044289 #3958]  INFO -- nexus-ubuntu-xenial64: version	14.3.37
+I, [2018-08-09T18:46:43.045621 #3958]  INFO -- nexus-ubuntu-xenial64: downloaded metadata file looks valid...
+I, [2018-08-09T18:46:43.053242 #3958]  INFO -- nexus-ubuntu-xenial64: downloading https://packages.chef.io/files/stable/chef/14.3.37/ubuntu/16.04/chef_14.3.37-1_amd64.deb
+I, [2018-08-09T18:46:43.053299 #3958]  INFO -- nexus-ubuntu-xenial64:   to file /tmp/install.sh.1647/chef_14.3.37-1_amd64.deb
+I, [2018-08-09T18:46:43.053591 #3958]  INFO -- nexus-ubuntu-xenial64: trying wget...
+I, [2018-08-09T18:46:46.533965 #3958]  INFO -- nexus-ubuntu-xenial64: Comparing checksum with sha256sum...
+I, [2018-08-09T18:46:46.734622 #3958]  INFO -- nexus-ubuntu-xenial64: 
+I, [2018-08-09T18:46:46.734972 #3958]  INFO -- nexus-ubuntu-xenial64: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2018-08-09T18:46:46.735017 #3958]  INFO -- nexus-ubuntu-xenial64: 
+I, [2018-08-09T18:46:46.735037 #3958]  INFO -- nexus-ubuntu-xenial64: You are installing an omnibus package without a version pin.  If you are installing
+I, [2018-08-09T18:46:46.735056 #3958]  INFO -- nexus-ubuntu-xenial64: on production servers via an automated process this is DANGEROUS and you will
+I, [2018-08-09T18:46:46.735074 #3958]  INFO -- nexus-ubuntu-xenial64: be upgraded without warning on new releases, even to new major releases.
+I, [2018-08-09T18:46:46.735092 #3958]  INFO -- nexus-ubuntu-xenial64: Letting the version float is only appropriate in desktop, test, development or
+I, [2018-08-09T18:46:46.735112 #3958]  INFO -- nexus-ubuntu-xenial64: CI/CD environments.
+I, [2018-08-09T18:46:46.735129 #3958]  INFO -- nexus-ubuntu-xenial64: 
+I, [2018-08-09T18:46:46.735146 #3958]  INFO -- nexus-ubuntu-xenial64: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2018-08-09T18:46:46.735163 #3958]  INFO -- nexus-ubuntu-xenial64: 
+I, [2018-08-09T18:46:46.735179 #3958]  INFO -- nexus-ubuntu-xenial64: Installing chef 
+I, [2018-08-09T18:46:46.735196 #3958]  INFO -- nexus-ubuntu-xenial64: installing with dpkg...
+I, [2018-08-09T18:46:46.757165 #3958]  INFO -- nexus-ubuntu-xenial64: Selecting previously unselected package chef.
+I, [2018-08-09T18:46:46.825421 #3958]  INFO -- nexus-ubuntu-xenial64: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 54142 files and directories currently installed.)
+I, [2018-08-09T18:46:46.826961 #3958]  INFO -- nexus-ubuntu-xenial64: Preparing to unpack .../chef_14.3.37-1_amd64.deb ...
+I, [2018-08-09T18:46:46.828404 #3958]  INFO -- nexus-ubuntu-xenial64: Unpacking chef (14.3.37-1) ...
+I, [2018-08-09T18:46:50.101045 #3958]  INFO -- nexus-ubuntu-xenial64: Setting up chef (14.3.37-1) ...
+I, [2018-08-09T18:46:50.163209 #3958]  INFO -- nexus-ubuntu-xenial64: Thank you for installing Chef!
+I, [2018-08-09T18:46:50.192934 #3958]  INFO -- nexus-ubuntu-xenial64: Transferring files to <nexus-ubuntu-xenial64>
+I, [2018-08-09T18:46:51.428544 #3958]  INFO -- nexus-ubuntu-xenial64: Starting Chef Client, version 14.3.37
+I, [2018-08-09T18:46:53.573916 #3958]  INFO -- nexus-ubuntu-xenial64: Creating a new client identity for nexus-ubuntu-xenial64 using the validator key.
+I, [2018-08-09T18:46:53.661670 #3958]  INFO -- nexus-ubuntu-xenial64: resolving cookbooks for run list: ["nexus::default"]
+I, [2018-08-09T18:46:53.700498 #3958]  INFO -- nexus-ubuntu-xenial64: Synchronizing Cookbooks:
+I, [2018-08-09T18:46:53.717921 #3958]  INFO -- nexus-ubuntu-xenial64:   - nexus (1.0.0)
+I, [2018-08-09T18:46:53.753825 #3958]  INFO -- nexus-ubuntu-xenial64:   - docker (4.4.1)
+I, [2018-08-09T18:46:53.754019 #3958]  INFO -- nexus-ubuntu-xenial64: Installing Cookbook Gems:
+I, [2018-08-09T18:47:01.604067 #3958]  INFO -- nexus-ubuntu-xenial64: Compiling Cookbooks...
+I, [2018-08-09T18:47:01.711830 #3958]  INFO -- nexus-ubuntu-xenial64: Converging 3 resources
+I, [2018-08-09T18:47:01.711984 #3958]  INFO -- nexus-ubuntu-xenial64: Recipe: nexus::default
+I, [2018-08-09T18:47:01.715945 #3958]  INFO -- nexus-ubuntu-xenial64:   * docker_service[default] action create
+I, [2018-08-09T18:47:01.717950 #3958]  INFO -- nexus-ubuntu-xenial64:     * docker_installation_script[default] action create
+I, [2018-08-09T18:47:01.919895 #3958]  INFO -- nexus-ubuntu-xenial64:       * apt_package[curl] action install (up to date)
+I, [2018-08-09T18:48:46.491436 #3958]  INFO -- nexus-ubuntu-xenial64:       * execute[install docker] action run
+I, [2018-08-09T18:48:46.491508 #3958]  INFO -- nexus-ubuntu-xenial64:  - execute curl -sSL https://get.docker.com/ | sh
+I, [2018-08-09T18:48:46.491636 #3958]  INFO -- nexus-ubuntu-xenial64:     
+I, [2018-08-09T18:48:46.493843 #3958]  INFO -- nexus-ubuntu-xenial64:     * docker_service[default] action restart
+I, [2018-08-09T18:48:46.498193 #3958]  INFO -- nexus-ubuntu-xenial64:       * docker_service_manager_systemd[default] action restart
+I, [2018-08-09T18:48:46.819386 #3958]  INFO -- nexus-ubuntu-xenial64:  * service[docker] action disable
+I, [2018-08-09T18:48:46.819452 #3958]  INFO -- nexus-ubuntu-xenial64:    - disable service service[docker]
+I, [2018-08-09T18:48:47.914310 #3958]  INFO -- nexus-ubuntu-xenial64:  * service[docker] action stop
+I, [2018-08-09T18:48:47.914399 #3958]  INFO -- nexus-ubuntu-xenial64:    - stop service service[docker]
+I, [2018-08-09T18:48:48.378933 #3958]  INFO -- nexus-ubuntu-xenial64:  * directory[/usr/lib/docker] action create (up to date)
+I, [2018-08-09T18:48:48.381748 #3958]  INFO -- nexus-ubuntu-xenial64:  * template[/usr/lib/docker/docker-wait-ready] action create
+I, [2018-08-09T18:48:48.382742 #3958]  INFO -- nexus-ubuntu-xenial64:    - create new file /usr/lib/docker/docker-wait-ready
+I, [2018-08-09T18:48:48.382800 #3958]  INFO -- nexus-ubuntu-xenial64:    - update content in file /usr/lib/docker/docker-wait-ready from none to 64d78d
+I, [2018-08-09T18:48:48.382837 #3958]  INFO -- nexus-ubuntu-xenial64:    --- /usr/lib/docker/docker-wait-ready	2018-08-09 22:48:47.558231260 +0000
+I, [2018-08-09T18:48:48.382869 #3958]  INFO -- nexus-ubuntu-xenial64:    +++ /usr/lib/docker/.chef-docker-wait-ready20180809-1731-ne2kxg	2018-08-09 22:48:47.558231260 +0000
+I, [2018-08-09T18:48:48.382900 #3958]  INFO -- nexus-ubuntu-xenial64:    @@ -1 +1,11 @@
+I, [2018-08-09T18:48:48.383121 #3958]  INFO -- nexus-ubuntu-xenial64:    +#!/usr/bin/env bash
+I, [2018-08-09T18:48:48.383158 #3958]  INFO -- nexus-ubuntu-xenial64:    +i=0
+I, [2018-08-09T18:48:48.383303 #3958]  INFO -- nexus-ubuntu-xenial64:    +while [ $i -lt 40 ]; do
+I, [2018-08-09T18:48:48.383339 #3958]  INFO -- nexus-ubuntu-xenial64:    +  /usr/bin/docker  ps | head -n 1 | grep ^CONTAINER > /dev/null 2>&1
+I, [2018-08-09T18:48:48.383370 #3958]  INFO -- nexus-ubuntu-xenial64:    +  [ $? -eq 0 ] && break
+I, [2018-08-09T18:48:48.383554 #3958]  INFO -- nexus-ubuntu-xenial64:    +  ((i++))
+I, [2018-08-09T18:48:48.383590 #3958]  INFO -- nexus-ubuntu-xenial64:    +  sleep 0.5
+I, [2018-08-09T18:48:48.383620 #3958]  INFO -- nexus-ubuntu-xenial64:    +done
+I, [2018-08-09T18:48:48.383787 #3958]  INFO -- nexus-ubuntu-xenial64:    +[ $i -eq 40 ] && exit 1
+I, [2018-08-09T18:48:48.385172 #3958]  INFO -- nexus-ubuntu-xenial64:    +exit 0
+I, [2018-08-09T18:48:48.385224 #3958]  INFO -- nexus-ubuntu-xenial64:    - change mode from '' to '0755'
+I, [2018-08-09T18:48:48.385259 #3958]  INFO -- nexus-ubuntu-xenial64:    - change owner from '' to 'root'
+I, [2018-08-09T18:48:48.385860 #3958]  INFO -- nexus-ubuntu-xenial64:    - change group from '' to 'root'
+I, [2018-08-09T18:48:48.389778 #3958]  INFO -- nexus-ubuntu-xenial64:  * template[/lib/systemd/system/docker.socket] action create (up to date)
+I, [2018-08-09T18:48:48.393688 #3958]  INFO -- nexus-ubuntu-xenial64:  * template[/lib/systemd/system/docker.service] action create
+I, [2018-08-09T18:48:48.393748 #3958]  INFO -- nexus-ubuntu-xenial64:    - update content in file /lib/systemd/system/docker.service from f6d102 to 1eff05
+I, [2018-08-09T18:48:48.393808 #3958]  INFO -- nexus-ubuntu-xenial64:    --- /lib/systemd/system/docker.service	2018-07-18 19:12:31.000000000 +0000
+I, [2018-08-09T18:48:48.394097 #3958]  INFO -- nexus-ubuntu-xenial64:    +++ /lib/systemd/system/.chef-docker20180809-1731-14qpqr1.service	2018-08-09 22:48:47.570237259 +0000
+I, [2018-08-09T18:48:48.394134 #3958]  INFO -- nexus-ubuntu-xenial64:    @@ -2,8 +2,8 @@
+I, [2018-08-09T18:48:48.394164 #3958]  INFO -- nexus-ubuntu-xenial64:     Description=Docker Application Container Engine
+I, [2018-08-09T18:48:48.394191 #3958]  INFO -- nexus-ubuntu-xenial64:     Documentation=https://docs.docker.com
+I, [2018-08-09T18:48:48.394362 #3958]  INFO -- nexus-ubuntu-xenial64:     After=network-online.target docker.socket firewalld.service
+I, [2018-08-09T18:48:48.394495 #3958]  INFO -- nexus-ubuntu-xenial64:    -Wants=network-online.target
+I, [2018-08-09T18:48:48.394613 #3958]  INFO -- nexus-ubuntu-xenial64:     Requires=docker.socket
+I, [2018-08-09T18:48:48.394645 #3958]  INFO -- nexus-ubuntu-xenial64:    +Wants=network-online.target
+I, [2018-08-09T18:48:48.394765 #3958]  INFO -- nexus-ubuntu-xenial64:     
+I, [2018-08-09T18:48:48.394797 #3958]  INFO -- nexus-ubuntu-xenial64:     [Service]
+I, [2018-08-09T18:48:48.395568 #3958]  INFO -- nexus-ubuntu-xenial64:     Type=notify
+I, [2018-08-09T18:48:48.397884 #3958]  INFO -- nexus-ubuntu-xenial64:  * template[/etc/systemd/system/docker.socket] action create
+I, [2018-08-09T18:48:48.399003 #3958]  INFO -- nexus-ubuntu-xenial64:    - create new file /etc/systemd/system/docker.socket
+I, [2018-08-09T18:48:48.399111 #3958]  INFO -- nexus-ubuntu-xenial64:    - update content in file /etc/systemd/system/docker.socket from none to 7d06f6
+I, [2018-08-09T18:48:48.399177 #3958]  INFO -- nexus-ubuntu-xenial64:    --- /etc/systemd/system/docker.socket	2018-08-09 22:48:47.574239259 +0000
+I, [2018-08-09T18:48:48.399475 #3958]  INFO -- nexus-ubuntu-xenial64:    +++ /etc/systemd/system/.chef-docker20180809-1731-llpw26.socket	2018-08-09 22:48:47.574239259 +0000
+I, [2018-08-09T18:48:48.399644 #3958]  INFO -- nexus-ubuntu-xenial64:    @@ -1 +1,13 @@
+I, [2018-08-09T18:48:48.399682 #3958]  INFO -- nexus-ubuntu-xenial64:    +[Unit]
+I, [2018-08-09T18:48:48.399712 #3958]  INFO -- nexus-ubuntu-xenial64:    +Description=Docker Socket for the API
+I, [2018-08-09T18:48:48.399924 #3958]  INFO -- nexus-ubuntu-xenial64:    +PartOf=docker.service
+I, [2018-08-09T18:48:48.400072 #3958]  INFO -- nexus-ubuntu-xenial64:    +
+I, [2018-08-09T18:48:48.400226 #3958]  INFO -- nexus-ubuntu-xenial64:    +[Socket]
+I, [2018-08-09T18:48:48.400261 #3958]  INFO -- nexus-ubuntu-xenial64:    +ListenStream=/var/run/docker.sock
+I, [2018-08-09T18:48:48.400385 #3958]  INFO -- nexus-ubuntu-xenial64:    +SocketMode=0660
+I, [2018-08-09T18:48:48.400418 #3958]  INFO -- nexus-ubuntu-xenial64:    +SocketUser=root
+I, [2018-08-09T18:48:48.400446 #3958]  INFO -- nexus-ubuntu-xenial64:    +SocketGroup=docker
+I, [2018-08-09T18:48:48.400651 #3958]  INFO -- nexus-ubuntu-xenial64:    +
+I, [2018-08-09T18:48:48.400686 #3958]  INFO -- nexus-ubuntu-xenial64:    +[Install]
+I, [2018-08-09T18:48:48.401704 #3958]  INFO -- nexus-ubuntu-xenial64:    +WantedBy=sockets.target
+I, [2018-08-09T18:48:48.401755 #3958]  INFO -- nexus-ubuntu-xenial64:    - change mode from '' to '0644'
+I, [2018-08-09T18:48:48.401789 #3958]  INFO -- nexus-ubuntu-xenial64:    - change owner from '' to 'root'
+I, [2018-08-09T18:48:48.402245 #3958]  INFO -- nexus-ubuntu-xenial64:    - change group from '' to 'root'
+I, [2018-08-09T18:48:48.405308 #3958]  INFO -- nexus-ubuntu-xenial64:  * template[/etc/systemd/system/docker.service] action create
+I, [2018-08-09T18:48:48.406358 #3958]  INFO -- nexus-ubuntu-xenial64:    - create new file /etc/systemd/system/docker.service
+I, [2018-08-09T18:48:48.406448 #3958]  INFO -- nexus-ubuntu-xenial64:    - update content in file /etc/systemd/system/docker.service from none to 9def81
+I, [2018-08-09T18:48:48.406483 #3958]  INFO -- nexus-ubuntu-xenial64:    --- /etc/systemd/system/docker.service	2018-08-09 22:48:47.582243259 +0000
+I, [2018-08-09T18:48:48.406550 #3958]  INFO -- nexus-ubuntu-xenial64:    +++ /etc/systemd/system/.chef-docker20180809-1731-1vtlm93.service	2018-08-09 22:48:47.582243259 +0000
+I, [2018-08-09T18:48:48.427470 #3958]  INFO -- nexus-ubuntu-xenial64:    @@ -1 +1,29 @@
+I, [2018-08-09T18:48:48.427683 #3958]  INFO -- nexus-ubuntu-xenial64:    +[Unit]
+I, [2018-08-09T18:48:48.427724 #3958]  INFO -- nexus-ubuntu-xenial64:    +Description=Docker Application Container Engine
+I, [2018-08-09T18:48:48.427755 #3958]  INFO -- nexus-ubuntu-xenial64:    +Documentation=https://docs.docker.com
+I, [2018-08-09T18:48:48.427896 #3958]  INFO -- nexus-ubuntu-xenial64:    +After=network-online.target docker.socket firewalld.service
+I, [2018-08-09T18:48:48.428067 #3958]  INFO -- nexus-ubuntu-xenial64:    +Requires=docker.socket
+I, [2018-08-09T18:48:48.428101 #3958]  INFO -- nexus-ubuntu-xenial64:    +Wants=network-online.target
+I, [2018-08-09T18:48:48.428130 #3958]  INFO -- nexus-ubuntu-xenial64:    +
+I, [2018-08-09T18:48:48.428299 #3958]  INFO -- nexus-ubuntu-xenial64:    +[Service]
+I, [2018-08-09T18:48:48.428332 #3958]  INFO -- nexus-ubuntu-xenial64:    +Type=notify
+I, [2018-08-09T18:48:48.428361 #3958]  INFO -- nexus-ubuntu-xenial64:    +ExecStartPre=/sbin/sysctl -w net.ipv4.ip_forward=1
+I, [2018-08-09T18:48:48.428390 #3958]  INFO -- nexus-ubuntu-xenial64:    +ExecStartPre=/sbin/sysctl -w net.ipv6.conf.all.forwarding=1
+I, [2018-08-09T18:48:48.428612 #3958]  INFO -- nexus-ubuntu-xenial64:    +ExecStart=/usr/bin/dockerd  --group=docker --log-level=info --pidfile=/var/run/docker.pid
+I, [2018-08-09T18:48:48.428647 #3958]  INFO -- nexus-ubuntu-xenial64:    +ExecStartPost=/usr/lib/docker/docker-wait-ready
+I, [2018-08-09T18:48:48.428861 #3958]  INFO -- nexus-ubuntu-xenial64:    +ExecReload=/bin/kill -s HUP $MAINPID
+I, [2018-08-09T18:48:48.429086 #3958]  INFO -- nexus-ubuntu-xenial64:    +LimitNOFILE=1048576
+I, [2018-08-09T18:48:48.429133 #3958]  INFO -- nexus-ubuntu-xenial64:    +LimitNPROC=infinity
+I, [2018-08-09T18:48:48.429166 #3958]  INFO -- nexus-ubuntu-xenial64:    +LimitCORE=infinity
+I, [2018-08-09T18:48:48.429322 #3958]  INFO -- nexus-ubuntu-xenial64:    +TasksMax=infinity
+I, [2018-08-09T18:48:48.429357 #3958]  INFO -- nexus-ubuntu-xenial64:    +TimeoutStartSec=0
+I, [2018-08-09T18:48:48.429490 #3958]  INFO -- nexus-ubuntu-xenial64:    +Delegate=yes
+I, [2018-08-09T18:48:48.429524 #3958]  INFO -- nexus-ubuntu-xenial64:    +KillMode=process
+I, [2018-08-09T18:48:48.429671 #3958]  INFO -- nexus-ubuntu-xenial64:    +Restart=always
+I, [2018-08-09T18:48:48.429706 #3958]  INFO -- nexus-ubuntu-xenial64:    +StartLimitBurst=3
+I, [2018-08-09T18:48:48.429734 #3958]  INFO -- nexus-ubuntu-xenial64:    +StartLimitInterval=60s
+I, [2018-08-09T18:48:48.429762 #3958]  INFO -- nexus-ubuntu-xenial64:    +
+I, [2018-08-09T18:48:48.429789 #3958]  INFO -- nexus-ubuntu-xenial64:    +
+I, [2018-08-09T18:48:48.429959 #3958]  INFO -- nexus-ubuntu-xenial64:    +[Install]
+I, [2018-08-09T18:48:48.430107 #3958]  INFO -- nexus-ubuntu-xenial64:    +WantedBy=multi-user.target
+I, [2018-08-09T18:48:48.430142 #3958]  INFO -- nexus-ubuntu-xenial64:    - change mode from '' to '0644'
+I, [2018-08-09T18:48:48.430172 #3958]  INFO -- nexus-ubuntu-xenial64:    - change owner from '' to 'root'
+I, [2018-08-09T18:48:48.430306 #3958]  INFO -- nexus-ubuntu-xenial64:    - change group from '' to 'root'
+I, [2018-08-09T18:48:48.474904 #3958]  INFO -- nexus-ubuntu-xenial64:  * execute[systemctl daemon-reload] action run
+I, [2018-08-09T18:48:48.475106 #3958]  INFO -- nexus-ubuntu-xenial64:    - execute /bin/systemctl daemon-reload
+I, [2018-08-09T18:48:48.494058 #3958]  INFO -- nexus-ubuntu-xenial64:  * execute[systemctl try-restart docker] action run
+I, [2018-08-09T18:48:48.494130 #3958]  INFO -- nexus-ubuntu-xenial64:    - execute /bin/systemctl try-restart docker
+I, [2018-08-09T18:48:48.494163 #3958]  INFO -- nexus-ubuntu-xenial64:  * execute[systemctl daemon-reload] action nothing (skipped due to action :nothing)
+I, [2018-08-09T18:48:48.494192 #3958]  INFO -- nexus-ubuntu-xenial64:  * execute[systemctl try-restart docker] action nothing (skipped due to action :nothing)
+I, [2018-08-09T18:48:49.134900 #3958]  INFO -- nexus-ubuntu-xenial64:  * service[docker] action enable
+I, [2018-08-09T18:48:49.134972 #3958]  INFO -- nexus-ubuntu-xenial64:    - enable service service[docker]
+I, [2018-08-09T18:48:49.547332 #3958]  INFO -- nexus-ubuntu-xenial64:  * service[docker] action start
+I, [2018-08-09T18:48:49.547407 #3958]  INFO -- nexus-ubuntu-xenial64:    - start service service[docker]
+I, [2018-08-09T18:48:49.547439 #3958]  INFO -- nexus-ubuntu-xenial64:       
+I, [2018-08-09T18:48:49.547464 #3958]  INFO -- nexus-ubuntu-xenial64:     
+I, [2018-08-09T18:48:49.547488 #3958]  INFO -- nexus-ubuntu-xenial64:   
+I, [2018-08-09T18:48:49.547512 #3958]  INFO -- nexus-ubuntu-xenial64:   * docker_service[default] action start
+I, [2018-08-09T18:48:50.035487 #3958]  INFO -- nexus-ubuntu-xenial64:     * docker_service_manager_systemd[default] action start
+I, [2018-08-09T18:48:50.037431 #3958]  INFO -- nexus-ubuntu-xenial64:       * directory[/usr/lib/docker] action create (up to date)
+I, [2018-08-09T18:48:50.041651 #3958]  INFO -- nexus-ubuntu-xenial64:       * template[/usr/lib/docker/docker-wait-ready] action create (up to date)
+I, [2018-08-09T18:48:50.047507 #3958]  INFO -- nexus-ubuntu-xenial64:       * template[/lib/systemd/system/docker.socket] action create (up to date)
+I, [2018-08-09T18:48:50.051267 #3958]  INFO -- nexus-ubuntu-xenial64:       * template[/lib/systemd/system/docker.service] action create (up to date)
+I, [2018-08-09T18:48:50.054580 #3958]  INFO -- nexus-ubuntu-xenial64:       * template[/etc/systemd/system/docker.socket] action create (up to date)
+I, [2018-08-09T18:48:50.058024 #3958]  INFO -- nexus-ubuntu-xenial64:       * template[/etc/systemd/system/docker.service] action create (up to date)
+I, [2018-08-09T18:48:50.058373 #3958]  INFO -- nexus-ubuntu-xenial64:       * execute[systemctl daemon-reload] action nothing (skipped due to action :nothing)
+I, [2018-08-09T18:48:50.059012 #3958]  INFO -- nexus-ubuntu-xenial64:       * execute[systemctl try-restart docker] action nothing (skipped due to action :nothing)
+I, [2018-08-09T18:48:50.141590 #3958]  INFO -- nexus-ubuntu-xenial64:       * service[docker] action enable (up to date)
+I, [2018-08-09T18:48:50.225069 #3958]  INFO -- nexus-ubuntu-xenial64:       * service[docker] action start (up to date)
+I, [2018-08-09T18:48:50.225270 #3958]  INFO -- nexus-ubuntu-xenial64: (up to date)
+I, [2018-08-09T18:48:50.225386 #3958]  INFO -- nexus-ubuntu-xenial64:      (up to date)
+I, [2018-08-09T18:49:17.862865 #3958]  INFO -- nexus-ubuntu-xenial64:   * docker_image[nexus3] action pull
+I, [2018-08-09T18:49:17.863574 #3958]  INFO -- nexus-ubuntu-xenial64:     - Pull image sonatype/nexus3:latest
+I, [2018-08-09T18:49:17.915341 #3958]  INFO -- nexus-ubuntu-xenial64:   * docker_container[nexus3] action run
+I, [2018-08-09T18:49:17.915666 #3958]  INFO -- nexus-ubuntu-xenial64:     - create nexus3
+I, [2018-08-09T18:49:17.915924 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set container_name              to "nexus3"
+I, [2018-08-09T18:49:17.916320 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set repo                        to "sonatype/nexus3"
+I, [2018-08-09T18:49:17.916624 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set tag                         to "latest" (default value)
+I, [2018-08-09T18:49:17.917104 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set command                     to nil (default value)
+I, [2018-08-09T18:49:17.917466 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set cap_add                     to nil (default value)
+I, [2018-08-09T18:49:17.917764 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set cap_drop                    to nil (default value)
+I, [2018-08-09T18:49:17.918213 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set cgroup_parent               to "" (default value)
+I, [2018-08-09T18:49:17.918510 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set cpu_shares                  to 0 (default value)
+I, [2018-08-09T18:49:17.918855 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set cpuset_cpus                 to "" (default value)
+I, [2018-08-09T18:49:17.919087 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set devices                     to [] (default value)
+I, [2018-08-09T18:49:17.919315 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set dns                         to [] (default value)
+I, [2018-08-09T18:49:17.919550 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set dns_search                  to [] (default value)
+I, [2018-08-09T18:49:17.919746 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set domain_name                 to "" (default value)
+I, [2018-08-09T18:49:17.919964 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set entrypoint                  to nil (default value)
+I, [2018-08-09T18:49:17.920144 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set env                         to [] (default value)
+I, [2018-08-09T18:49:17.920361 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set extra_hosts                 to nil (default value)
+I, [2018-08-09T18:49:17.926118 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set exposed_ports               to {"8081/tcp"=>{}}
+I, [2018-08-09T18:49:17.926349 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set hostname                    to nil (default value)
+I, [2018-08-09T18:49:17.926539 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set ipc_mode                    to "" (default value)
+I, [2018-08-09T18:49:17.926725 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set kernel_memory               to 0 (default value)
+I, [2018-08-09T18:49:17.926906 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set labels                      to {} (default value)
+I, [2018-08-09T18:49:17.927084 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set links                       to nil (default value)
+I, [2018-08-09T18:49:17.927262 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set init                        to nil (default value)
+I, [2018-08-09T18:49:17.927442 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set ip_address                  to nil (default value)
+I, [2018-08-09T18:49:17.927623 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set mac_address                 to nil (default value)
+I, [2018-08-09T18:49:17.927805 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set memory                      to 0 (default value)
+I, [2018-08-09T18:49:17.927991 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set memory_swap                 to 0 (default value)
+I, [2018-08-09T18:49:17.928183 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set memory_swappiness           to 0 (default value)
+I, [2018-08-09T18:49:17.928365 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set memory_reservation          to 0 (default value)
+I, [2018-08-09T18:49:17.928544 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set network_disabled            to false (default value)
+I, [2018-08-09T18:49:17.928729 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set network_mode                to "bridge" (default value)
+I, [2018-08-09T18:49:17.929073 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set network_aliases             to [] (default value)
+I, [2018-08-09T18:49:17.929295 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set oom_kill_disable            to false (default value)
+I, [2018-08-09T18:49:17.929572 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set oom_score_adj               to -500 (default value)
+I, [2018-08-09T18:49:17.929779 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set outfile                     to nil (default value)
+I, [2018-08-09T18:49:17.930080 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set port_bindings               to {"8081/tcp"=>[{"HostIp"=>"0.0.0.0", "HostPort"=>"8081"}]}
+I, [2018-08-09T18:49:17.930304 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set pid_mode                    to "" (default value)
+I, [2018-08-09T18:49:17.930679 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set privileged                  to false (default value)
+I, [2018-08-09T18:49:17.930983 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set publish_all_ports           to false (default value)
+I, [2018-08-09T18:49:17.931326 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set remove_volumes              to false (default value)
+I, [2018-08-09T18:49:17.931560 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set restart_maximum_retry_count to 0 (default value)
+I, [2018-08-09T18:49:17.931779 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set restart_policy              to nil (default value)
+I, [2018-08-09T18:49:17.932016 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set runtime                     to "runc" (default value)
+I, [2018-08-09T18:49:17.932285 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set ro_rootfs                   to false (default value)
+I, [2018-08-09T18:49:17.932483 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set security_opt                to nil (default value)
+I, [2018-08-09T18:49:17.932679 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set signal                      to "SIGTERM" (default value)
+I, [2018-08-09T18:49:17.932869 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set sysctls                     to {} (default value)
+I, [2018-08-09T18:49:17.933048 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set tty                         to false (default value)
+I, [2018-08-09T18:49:17.933233 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set ulimits                     to nil (default value)
+I, [2018-08-09T18:49:17.933409 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set user                        to "" (default value)
+I, [2018-08-09T18:49:17.933673 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set userns_mode                 to "" (default value)
+I, [2018-08-09T18:49:17.933855 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set uts_mode                    to "" (default value)
+I, [2018-08-09T18:49:17.934033 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set volumes                     to {} (default value)
+I, [2018-08-09T18:49:17.934212 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set volumes_from                to nil (default value)
+I, [2018-08-09T18:49:17.934388 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set volume_driver               to nil (default value)
+I, [2018-08-09T18:49:17.962873 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set working_dir                 to "" (default value)
+I, [2018-08-09T18:49:18.228975 #3958]  INFO -- nexus-ubuntu-xenial64:     -   set volumes_binds               to nil (default value)
+I, [2018-08-09T18:49:18.254797 #3958]  INFO -- nexus-ubuntu-xenial64:     - starting nexus3
+I, [2018-08-09T18:49:18.302081 #3958]  INFO -- nexus-ubuntu-xenial64: 
+I, [2018-08-09T18:49:18.302157 #3958]  INFO -- nexus-ubuntu-xenial64: Running handlers:
+I, [2018-08-09T18:49:18.302308 #3958]  INFO -- nexus-ubuntu-xenial64: Running handlers complete
+I, [2018-08-09T18:49:18.302461 #3958]  INFO -- nexus-ubuntu-xenial64: Chef Client finished, 17/34 resources updated in 02 minutes 26 seconds
+I, [2018-08-09T18:49:18.311029 #3958]  INFO -- nexus-ubuntu-xenial64: Downloading files from <nexus-ubuntu-xenial64>
+I, [2018-08-09T18:49:18.319671 #3958]  INFO -- nexus-ubuntu-xenial64: Finished converging <nexus-ubuntu-xenial64> (2m38.52s).
