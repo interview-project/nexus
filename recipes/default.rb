@@ -17,4 +17,5 @@ docker_container 'nexus3' do
   repo 'sonatype/nexus3'
   container_name 'nexus3'
   port '8081:8081'
+  restart_policy 'always'
 end
